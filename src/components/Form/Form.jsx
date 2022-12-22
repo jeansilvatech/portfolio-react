@@ -12,7 +12,7 @@ export const Form = ()=>{
             </J.Fields>
             <J.Fields>
                 <label htmlFor="email">E-mail</label>
-                <J.Input type="text" name="email" id="email" />
+                <J.Input type="email" name="email" id="email" />
             </J.Fields>
            <J.Fields>
                 <label htmlFor="message">Mensagem</label>

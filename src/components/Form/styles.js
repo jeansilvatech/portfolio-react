@@ -17,6 +17,7 @@ export const Forms = styled.form `
     align-items:center;
     justify-content:space-between;
     margin-bottom: 20px;
+    font-size: 25px;
 `
 export const Fields = styled.div `
     display: flex;
@@ -26,8 +27,9 @@ export const Fields = styled.div `
     margin: 10px;
 `
 export const Button = styled.button `
+    font-size: 20px;
     margin: 10px;
-    padding: 15px 50px;
+    padding: 10px 50px;
     border: none;
     background-color: white;
     color: #1c1c1c;
@@ -42,7 +44,7 @@ export const Button = styled.button `
     }
 `
 export const Input = styled.input `
-    padding: 10px 20px;
+    padding: 15px 35px;
     background-color: rgba(255,255,255, 0.5);
     border-radius: 10px;
     outline:0;
