@@ -30,6 +30,11 @@ export const Text = styled.div `
     justify-content: center;
     align-items: flex-start;
     text-transform: uppercase;
+    @media (max-width:480px) {
+        width: 90%;
+        position: absolute;
+        z-index: 999;
+    }
 `
 export const Image = styled.div `
     height: 100vh;
@@ -39,13 +44,25 @@ export const Image = styled.div `
     background-repeat:no-repeat;
     margin-top: 10px;
     animation: ${principal} 10s infinite;
+    @media (max-width:480px) {
+        width: 100%;
+        position: absolute;
+        opacity: 0.3;
+        animation: none;
+    }
 
 `
 export const Title = styled.h1 `
     font-size: 40px;
     margin:0;
+    @media (max-width:480px) {
+        font-size:35px;
+    }
 `
 export const Subtitle = styled.h2 `
     font-size: 25px;
     color: #A9A9A9;
+    @media (max-width:480px) {
+        font-size:20px;
+    }
 `
