@@ -37,7 +37,7 @@ export const Buttons = styled.div `
         display: flex;
         justify-content: center;
         align-items: center;
-        background-color: rgba(0,0,0,0.7);
+        background-color: rgba(0,0,0,0.3);
         padding:0px;
     }
 `

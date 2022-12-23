@@ -18,6 +18,10 @@ export const Forms = styled.form `
     justify-content:space-between;
     margin-bottom: 20px;
     font-size: 25px;
+    @media (max-width:480px) {
+        width: 300px;
+        font-size: 18px;
+    }
 `
 export const Fields = styled.div `
     display: flex;
@@ -52,6 +56,9 @@ export const Input = styled.input `
     &:hover{
             background-color:white;
     }
+    @media (max-width:480px) {
+        padding: 10px 30px;
+    }
 `
 export const TextArea = styled.textarea `
  height: 100px;
@@ -61,6 +68,9 @@ export const TextArea = styled.textarea `
  outline:none;
  border-radius: 10px;
  text-align:center;
+ @media (max-width:480px) {
+    width: 195px;
+    }
 
 `
 export const ContainerSocial = styled.div `
@@ -75,12 +85,17 @@ export const Social = styled.a `
         color:rgba(255,255,255, 0.5);
         transition: 500ms;
     }
+    
+    
 `
 export const Line = styled.div `
     height: 1px;
     width: 400px;
     background-color: white;
     border-radius: 10px;
+    @media (max-width:480px) {
+        width:170px;
+    }
 `
 export const H2 = styled.h2 `
     margin-top: 0 10px ;

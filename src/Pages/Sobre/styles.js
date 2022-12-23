@@ -5,6 +5,7 @@ export const Container = styled.div `
     display: flex;
     justify-content: center;
     align-items: center;
+   
     
 `
 export const AboutContainer = styled.div`
@@ -12,7 +13,8 @@ export const AboutContainer = styled.div`
     display: flex;
     @media (max-width:480px) {
         flex-direction: column;
-        width: 400px;
+        width: 100%;
+        padding: 10px;
         text-align: justify;
     }
    
@@ -22,7 +24,7 @@ export const Text = styled.p `
     font-size: 30px;
     margin: 10px;
     @media (max-width:480px) {
-        font-size: 25px;
+        font-size: 20px;
     }
    
 
