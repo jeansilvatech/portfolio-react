@@ -13,8 +13,8 @@
 
 
 #### Atualizações
-- Adição dos conteúdos das páginas SOBRE e PROJETOS
-- Utilização do Keen Slider na página PROJETOS
+- Adição dos conteúdos das páginas SOBRE e PROJETOS;
+- Utilização do Keen Slider na página PROJETOS;
 
 ![image](https://user-images.githubusercontent.com/23384348/209210795-c5ea9bef-4f90-4a20-ab93-24ffb6a559e3.png)
 ![image](https://user-images.githubusercontent.com/23384348/209210729-82d26d3c-5c87-46fc-a5d8-156900c2cbd0.png)
