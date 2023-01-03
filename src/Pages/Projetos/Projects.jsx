@@ -79,6 +79,8 @@ const Projects = ()=>{
             <div className="keen-slider__slide"><J.Image src="https://jeansilvatech.netlify.app/assets/img/nlw.png" alt="" /></div>
             <div className="keen-slider__slide"><J.Image src="https://jeansilvatech.netlify.app/assets/img/pokemon.png" alt="" /></div>
             <div className="keen-slider__slide"><J.Image src="https://jeansilvatech.netlify.app/assets/img/instagram.png" alt="" /></div>
+            <div className="keen-slider__slide"><J.Image src="https://jeansilvatech.netlify.app/assets/img/bitsized.png" alt="" /></div>
+            <div className="keen-slider__slide"><J.Image src="https://jeansilvatech.netlify.app/assets/img/gitsearch.png" alt="" /></div>
         
         </div>
         </J.Container>
