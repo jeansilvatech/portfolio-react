@@ -1,10 +1,12 @@
 import styled from "styled-components";
+import { enter } from "../../components/Form/styles";
 export const Container = styled.div `
     width:100vw;
     height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
+    animation: ${enter} 1s ease-in-out ;
    
     
 `

@@ -1,5 +1,9 @@
-import styled from "styled-components";
+import styled, { keyframes } from "styled-components";
 
+export const enter = keyframes`
+0%{
+    transform: translateY(500px);
+}`
 export const Container = styled.div `
     width: 100vw;
     height: 90vh;
@@ -8,6 +12,7 @@ export const Container = styled.div `
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    animation: ${enter} 1s ease-in-out ;
 
 `
 export const Forms = styled.form `

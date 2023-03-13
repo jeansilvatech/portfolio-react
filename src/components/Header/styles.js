@@ -5,7 +5,7 @@ export const Header = styled.div`
     font-family: 'Josefin Sans', sans-serif;
     width: 100vw;
     height: 100px;
-    background-color: rgba(0,0,0,0.5);
+    background-color: rgba(0,0,0,0.1);
     display: flex;
     justify-content:space-between;
     align-items: center;
